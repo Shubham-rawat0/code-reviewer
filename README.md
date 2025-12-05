@@ -1,8 +1,8 @@
-📄 CodeView – Interactive Code Reader & File Loader
+# CodeView – Interactive Code Reader & File Loader
 
 CodeView is a lightweight, developer-friendly web application that allows users to upload code files, automatically detect their programming language, and view or edit the contents inside a smooth, scrollable editor. It is designed to mimic a mini-VS Code environment inside the browser.
 
-🚀 Features
+# Features
 🔹 Upload & Read Code Files
 
 Supports .js, .ts, .py, .cpp, .c, .java, .go, and more
@@ -35,13 +35,13 @@ Right panel: live code editing
 
 Designed for readability and productivity
 
-🛠️ Tech Stack
+# Tech Stack
 Layer	Technology
 Frontend	React + Vite
 Styling	CSS
 Code Editing	react-simple-code-editor + PrismJS
 File Handling	FileReader API
-📂 Project Structure
+# Project Structure
 CodeView/
 │── src/
 │    ├── App.jsx
@@ -53,7 +53,7 @@ CodeView/
 │── package.json
 └── README.md
 
-📄 How It Works
+# How It Works
 1️⃣ File Upload
 
 User uploads any code file → content is read and placed inside the editor.
@@ -76,7 +76,7 @@ The extension is mapped to a language:
 
 The code viewer grows with the content but stays scrollable, preventing overflow issues.
 
-🧪 Run Locally
+# Run Locally
 
 Anyone can clone and run the project:
 
@@ -86,11 +86,7 @@ npm install
 npm run dev
 
 
-📌 Roadmap
 
-Syntax highlighting themes
-
-Multi-file tabs
 
 Download/export edited file
 
