@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controllers/ai.controllers.ts","./src/routes/ai.routes.ts","./src/services/ai.service.ts"],"version":"5.9.3"}
