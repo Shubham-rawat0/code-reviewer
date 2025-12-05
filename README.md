@@ -41,17 +41,6 @@ Frontend	React + Vite
 Styling	CSS
 Code Editing	react-simple-code-editor + PrismJS
 File Handling	FileReader API
-# Project Structure
-CodeView/
-│── src/
-│    ├── App.jsx
-│    ├── components/
-│    │     ├── CodeEditor.jsx
-│    │     └── FileInput.jsx
-│    ├── styles.css
-│── public/
-│── package.json
-└── README.md
 
 # How It Works
 1️⃣ File Upload
