@@ -22,28 +22,7 @@ function App() {
   const [code, setCode] = useState(`function sum() {
   return 1 + 1;
 }
-
-// Add more lines to test scrolling
-function multiply(a, b) {
-  return a * b;
-}
-
-function divide(a, b) {
-  if (b === 0) {
-    throw new Error("Division by zero");
-  }
-  return a / b;
-}
-
-// More test content
-const testArray = [1, 2, 3, 4, 5];
-const doubled = testArray.map(x => x * 2);
-console.log(doubled);
-
-// Additional lines for scrolling demo
-for (let i = 0; i < 10; i++) {
-  console.log("Line " + i);
-}`);
+`);
 
   const [review, setReview] = useState("");
   const [lan, setLan] = useState("javascript");

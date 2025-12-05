@@ -4,6 +4,7 @@ import express from "express";
 import aiRoutes from "./routes/ai.routes.js"
 import cors from 'cors'
 
+const port=process.env.PORT
 const app=express()
 app.use(
   cors({
@@ -14,6 +15,6 @@ app.use(express.json())
 
 app.use("/ai",aiRoutes)
 
-app.listen(3000,()=>{
-    console.log("server running on 3000")
+app.listen(port,()=>{
+    console.log("server running on",port)
 })
